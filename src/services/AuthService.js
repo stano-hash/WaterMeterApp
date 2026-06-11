@@ -2,17 +2,16 @@
 
 const STORAGE_KEY = 'waterMeterUser';
 
+const mockUsers = [
+  {username: 'admin', password: 'password', role: 'admin'},
+  {username: 'user', password: '123456', role: 'user'},
+  {username: 'demo', password: 'demo', role: 'user'},
+];
+
 const loginUser = async ({username, password}) => {
-  const users = [
-    {username: 'admin', password: 'password'},
-    {username: 'user', password: '123456'},
-    {username: 'demo', password: 'demo'},
-  ];
-  const found = users.find(u => u.username === username && u.password === password);
-  if (!found) {
-    throw new Error('Invalid credentials');
-  }
-  await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({username: found.username}));
+  const found = mockUsers.find(u => u.username === username && u.password === password);
+  if (!found) throw new Error('Invalid credentials');
+  await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify({username: found.username, role: found.role}));
 };
 
 const logoutUser = async () => {
@@ -27,11 +26,7 @@ const isAuthenticated = async () => {
 const getCurrentUser = async () => {
   const raw = await AsyncStorage.getItem(STORAGE_KEY);
   if (!raw) return null;
-  try {
-    return JSON.parse(raw);
-  } catch (e) {
-    return null;
-  }
+  try { return JSON.parse(raw); } catch (e) { return null; }
 };
 
 export {loginUser, logoutUser, isAuthenticated, getCurrentUser};
