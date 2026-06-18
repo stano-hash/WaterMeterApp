@@ -7,7 +7,5 @@ pluginManagement {
     }
 }
 plugins {
-    id "com.facebook.react.settings" version "0.73.4" apply false
+    id "com.facebook.react.settings" version "0.73.4"
 }
-rootProject.name = "water-meter-app"
-include ":app"
