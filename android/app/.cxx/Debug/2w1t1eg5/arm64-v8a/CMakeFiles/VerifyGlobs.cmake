@@ -80,7 +80,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/WaterMeterApp/android/app/.cxx/Debug/2w1t1eg5/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# LIB_CUSTOM_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:22 (file)
+# LIB_CUSTOM_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:21 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/*.cpp")
 set(OLD_GLOB
   "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/rnscreens.cpp"
@@ -90,10 +90,9 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/WaterMeterApp/android/app/.cxx/Debug/2w1t1eg5/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# LIB_CUSTOM_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:22 (file)
+# LIB_CUSTOM_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:21 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/*.cpp")
 set(OLD_GLOB
-  "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSModalScreenShadowNode.cpp"
   "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp"
   "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenState.cpp"
   )
@@ -102,16 +101,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "C:/WaterMeterApp/android/app/.cxx/Debug/2w1t1eg5/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# LIB_CUSTOM_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:22 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/utils/*.cpp")
-set(OLD_GLOB
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/WaterMeterApp/android/app/.cxx/Debug/2w1t1eg5/arm64-v8a/CMakeFiles/cmake.verify_globs")
-endif()
-
-# LIB_CODEGEN_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+# LIB_CODEGEN_SRCS at C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:22 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/*.cpp")
 set(OLD_GLOB
   "C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp"

@@ -1,0 +1,131 @@
+ninja: Entering directory `C:\WaterMeterApp\android\app\.cxx\Debug\2w1t1eg5\arm64-v8a'
+[0/2] Re-checking globbed directories...
+[1/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/States.cpp.o
+[2/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/EventEmitters.cpp.o
+[3/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/rnasyncstorage-generated.cpp.o
+[4/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o
+[5/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ShadowNodes.cpp.o
+[6/35] Building CXX object CMakeFiles/appmodules.dir/OnLoad.cpp.o
+[7/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o
+[8/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o
+FAILED: safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o 
+C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_safeareacontext_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext -isystem C:/Users/user/.gradle/caches/8.14/transforms/c1ef3763cf49bc85d8fff96bb6fe131d/transformed/fbjni-0.5.1/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_componentregistry/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_utils/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++20 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o -MF safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\d0cbb33f4fb9fdd96720710db515c354\cpp\react\renderer\components\safeareacontext\RNCSafeAreaViewShadowNode.cpp.o.d -o safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o -c C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:15:15: error: no type named 'Length' in 'facebook::yoga::Style'
+   15 | inline Style::Length valueFromEdges(
+      |        ~~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:16:12: error: no type named 'Length' in 'facebook::yoga::Style'
+   16 |     Style::Length edge,
+      |     ~~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:17:12: error: no type named 'Length' in 'facebook::yoga::Style'
+   17 |     Style::Length axis,
+      |     ~~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:18:12: error: no type named 'Length' in 'facebook::yoga::Style'
+   18 |     Style::Length defaultValue) {
+      |     ~~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:19:22: error: use of undeclared identifier 'Unit'; did you mean 'folly::Unit'?
+   19 |   if (edge.unit() != Unit::Undefined) {
+      |                      ^~~~
+      |                      folly::Unit
+C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/folly_runtime/include/folly/Unit.h:36:8: note: 'folly::Unit' declared here
+   36 | struct Unit {
+      |        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:19:28: error: no member named 'Undefined' in 'folly::Unit'
+   19 |   if (edge.unit() != Unit::Undefined) {
+      |                      ~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:22:22: error: use of undeclared identifier 'Unit'; did you mean 'folly::Unit'?
+   22 |   if (axis.unit() != Unit::Undefined) {
+      |                      ^~~~
+      |                      folly::Unit
+C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/folly_runtime/include/folly/Unit.h:36:8: note: 'folly::Unit' declared here
+   36 | struct Unit {
+      |        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:22:28: error: no member named 'Undefined' in 'folly::Unit'
+   22 |   if (axis.unit() != Unit::Undefined) {
+      |                      ~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:52:10: error: no type named 'Length' in 'facebook::yoga::Style'
+   52 |   Style::Length top, left, right, bottom;
+      |   ~~~~~~~^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:54:51: error: use of undeclared identifier 'Edge'
+   54 |     auto defaultPadding = props.yogaStyle.padding(Edge::All);
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:56:33: error: use of undeclared identifier 'Edge'
+   56 |         props.yogaStyle.padding(Edge::Top),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:57:33: error: use of undeclared identifier 'Edge'
+   57 |         props.yogaStyle.padding(Edge::Vertical),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:59:5: error: use of undeclared identifier 'left'
+   59 |     left = valueFromEdges(
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:60:33: error: use of undeclared identifier 'Edge'
+   60 |         props.yogaStyle.padding(Edge::Left),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:61:33: error: use of undeclared identifier 'Edge'
+   61 |         props.yogaStyle.padding(Edge::Horizontal),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:63:5: error: use of undeclared identifier 'bottom'
+   63 |     bottom = valueFromEdges(
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:64:33: error: use of undeclared identifier 'Edge'
+   64 |         props.yogaStyle.padding(Edge::Bottom),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:65:33: error: use of undeclared identifier 'Edge'
+   65 |         props.yogaStyle.padding(Edge::Vertical),
+      |                                 ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:67:5: error: use of undeclared identifier 'right'
+   67 |     right = valueFromEdges(
+      |     ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[9/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5dfdeaf88aa77839e98b0b7a348bac08/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17:69: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 | void RNCSafeAreaProviderEventEmitter::onInsetsChange(OnInsetsChange $event) const {
+      |                                                                     ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:18:34: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   18 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                  ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:18:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   18 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:19:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   19 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:22:38: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   22 |   insets.setProperty(runtime, "top", $event.insets.top);
+      |                                      ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:23:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   23 |   insets.setProperty(runtime, "right", $event.insets.right);
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:24:41: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   24 |   insets.setProperty(runtime, "bottom", $event.insets.bottom);
+      |                                         ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:25:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   25 |   insets.setProperty(runtime, "left", $event.insets.left);
+      |                                       ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:26:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   26 |   $payload.setProperty(runtime, "insets", insets);
+      |   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:30:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   30 |   frame.setProperty(runtime, "x", $event.frame.x);
+      |                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:31:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   31 |   frame.setProperty(runtime, "y", $event.frame.y);
+      |                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:32:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |   frame.setProperty(runtime, "width", $event.frame.width);
+      |                                       ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:33:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   33 |   frame.setProperty(runtime, "height", $event.frame.height);
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:34:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   34 |   $payload.setProperty(runtime, "frame", frame);
+      |   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:36:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   36 |     return $payload;
+      |            ^
+15 warnings generated.
+[10/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o
+[11/35] Linking CXX shared library C:\WaterMeterApp\android\app\build\intermediates\cxx\Debug\2w1t1eg5\obj\arm64-v8a\libreact_codegen_rnasyncstorage.so
+[12/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/1cf815897206242d9651d61eeeeeae47/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o
+[13/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/1cf815897206242d9651d61eeeeeae47/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o
+ninja: build stopped: subcommand failed.

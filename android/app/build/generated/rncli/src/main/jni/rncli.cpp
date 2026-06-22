@@ -51,7 +51,6 @@ void rncli_registerProviders(std::shared_ptr<ComponentDescriptorProviderRegistry
   providerRegistry->add(concreteComponentDescriptorProvider<RNSScreenStackComponentDescriptor>());
   providerRegistry->add(concreteComponentDescriptorProvider<RNSSearchBarComponentDescriptor>());
   providerRegistry->add(concreteComponentDescriptorProvider<RNSScreenComponentDescriptor>());
-  providerRegistry->add(concreteComponentDescriptorProvider<RNSModalScreenComponentDescriptor>());
 
 
 

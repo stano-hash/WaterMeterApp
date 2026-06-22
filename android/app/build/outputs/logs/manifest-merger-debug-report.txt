@@ -11,7 +11,7 @@ MERGED from [:react-native-sqlite-storage] C:\WaterMeterApp\node_modules\react-n
 MERGED from [:react-native-vector-icons] C:\WaterMeterApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\17dd694031be8265e53af60d8ed856e5\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\4b6e37d0a91dff9f0cb1bb13c02d175e\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\20f77640723a23c03474aeb104d3a52b\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\user\.gradle\caches\8.14\transforms\bce752b9796fbe181e272d91090b15d5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\739e7103d6dac7449da1e6f97df98815\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\user\.gradle\caches\8.14\transforms\cd39cb93e39bd13ae71a4a64ba0db279\transformed\imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:2:1-7:12
@@ -87,8 +87,8 @@ ADDED from C:\WaterMeterApp\android\app\src\main\AndroidManifest.xml:5:5-25:19
 INJECTED from C:\WaterMeterApp\android\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:18:5-22:19
 MERGED from [com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:18:5-22:19
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\4b6e37d0a91dff9f0cb1bb13c02d175e\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\4b6e37d0a91dff9f0cb1bb13c02d175e\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\20f77640723a23c03474aeb104d3a52b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\20f77640723a23c03474aeb104d3a52b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\user\.gradle\caches\8.14\transforms\bce752b9796fbe181e272d91090b15d5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\user\.gradle\caches\8.14\transforms\bce752b9796fbe181e272d91090b15d5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.14\transforms\ef33d28c7951745086d6974ef3318d20\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
@@ -163,8 +163,8 @@ MERGED from [com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\cach
 MERGED from [com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:10:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\17dd694031be8265e53af60d8ed856e5\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\17dd694031be8265e53af60d8ed856e5\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\4b6e37d0a91dff9f0cb1bb13c02d175e\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\4b6e37d0a91dff9f0cb1bb13c02d175e\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\20f77640723a23c03474aeb104d3a52b\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\20f77640723a23c03474aeb104d3a52b\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\user\.gradle\caches\8.14\transforms\bce752b9796fbe181e272d91090b15d5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\user\.gradle\caches\8.14\transforms\bce752b9796fbe181e272d91090b15d5\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\user\.gradle\caches\8.14\transforms\739e7103d6dac7449da1e6f97df98815\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
