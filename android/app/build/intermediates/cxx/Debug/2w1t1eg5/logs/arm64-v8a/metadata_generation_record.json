@@ -1,0 +1,158 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\WaterMeterApp\\android\\app\\.cxx\\Debug\\2w1t1eg5\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Program Files\\\\Microsoft\\\\jdk-17.0.19.10-hotspot\\\\bin\\\\java\" ^\n  --class-path ^\n  \"C:\\\\Users\\\\user\\\\.gradle\\\\caches\\\\modules-2\\\\files-2.1\\\\com.google.prefab\\\\cli\\\\2.0.0\\\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\\\cli-2.0.0-all.jar\" ^\n  com.google.prefab.cli.AppKt ^\n  --build-system ^\n  cmake ^\n  --platform ^\n  android ^\n  --abi ^\n  arm64-v8a ^\n  --os-version ^\n  24 ^\n  --stl ^\n  c++_shared ^\n  --ndk-version ^\n  27 ^\n  --output ^\n  \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\agp-prefab-staging14959523048252208700\\\\staged-cli-output\" ^\n  \"C:\\\\Users\\\\user\\\\.gradle\\\\caches\\\\8.14\\\\transforms\\\\8a13960de8e6fe2f78c8c2d824562bb1\\\\transformed\\\\react-android-0.73.4-debug\\\\prefab\" ^\n  \"C:\\\\Users\\\\user\\\\.gradle\\\\caches\\\\8.14\\\\transforms\\\\c1ef3763cf49bc85d8fff96bb6fe131d\\\\transformed\\\\fbjni-0.5.1\\\\prefab\" ^\n  \"C:\\\\Users\\\\user\\\\.gradle\\\\caches\\\\8.14\\\\transforms\\\\6b9bebe1b5dc89cb90f7fae0a4b75204\\\\transformed\\\\hermes-android-0.73.4-debug\\\\prefab\"\n",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\WaterMeterApp\\android\\app\\.cxx\\Debug\\2w1t1eg5\\arm64-v8a\u0027",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\WaterMeterApp\\android\\app\\.cxx\\Debug\\2w1t1eg5\\arm64-v8a\u0027",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Users\\\\user\\\\Android\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\WaterMeterApp\\\\node_modules\\\\react-native\\\\ReactAndroid\\\\cmake-utils\\\\default-app-setup\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d24\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-24\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\user\\\\Android\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2w1t1eg5\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2w1t1eg5\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\.cxx\\\\Debug\\\\2w1t1eg5\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BC:\\\\WaterMeterApp\\\\android\\\\app\\\\.cxx\\\\Debug\\\\2w1t1eg5\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DPROJECT_BUILD_DIR\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\" ^\n  \"-DREACT_ANDROID_DIR\u003dC:\\\\WaterMeterApp\\\\node_modules\\\\react-native\\\\ReactAndroid\" ^\n  \"-DANDROID_STL\u003dc++_shared\" ^\n  \"-DANDROID_USE_LEGACY_TOOLCHAIN_FILE\u003dON\"\n",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Users\\\\user\\\\Android\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\WaterMeterApp\\\\node_modules\\\\react-native\\\\ReactAndroid\\\\cmake-utils\\\\default-app-setup\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d24\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-24\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\user\\\\Android\\\\ndk\\\\27.1.12297006\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\user\\\\Android\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2w1t1eg5\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\2w1t1eg5\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\.cxx\\\\Debug\\\\2w1t1eg5\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BC:\\\\WaterMeterApp\\\\android\\\\app\\\\.cxx\\\\Debug\\\\2w1t1eg5\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DPROJECT_BUILD_DIR\u003dC:\\\\WaterMeterApp\\\\android\\\\app\\\\build\" ^\n  \"-DREACT_ANDROID_DIR\u003dC:\\\\WaterMeterApp\\\\node_modules\\\\react-native\\\\ReactAndroid\" ^\n  \"-DANDROID_STL\u003dc++_shared\" ^\n  \"-DANDROID_USE_LEGACY_TOOLCHAIN_FILE\u003dON\"\n",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\WaterMeterApp\\android\\app\\.cxx\\Debug\\2w1t1eg5\\arm64-v8a\\compile_commands.json.bin normally",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "hard linked C:\\WaterMeterApp\\android\\app\\.cxx\\Debug\\2w1t1eg5\\arm64-v8a\\compile_commands.json to C:\\WaterMeterApp\\android\\app\\.cxx\\tools\\debug\\arm64-v8a\\compile_commands.json",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\WaterMeterApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

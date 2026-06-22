@@ -4,7 +4,7 @@
             "outputFile": "com.watermeterapp-mergeDebugResources-31:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\27322e018b64136ae836a220a23bd169\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\739e7103d6dac7449da1e6f97df98815\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\d56b311f3bf7a7e2aa7174eb9b2b300f\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\7d003d1f5eeba1cedc795b21beb0b194\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
