@@ -114,7 +114,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appmodules::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appmodules-Debug-2e6b8bddc0f513c613f5.json",
+					"jsonFile" : "target-appmodules-Debug-a5aa4aba90b2e8fc4852.json",
 					"name" : "appmodules",
 					"projectIndex" : 0
 				},
@@ -142,7 +142,7 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a",
-					"jsonFile" : "target-react_codegen_safeareacontext-Debug-619aad4ed0927e69620d.json",
+					"jsonFile" : "target-react_codegen_safeareacontext-Debug-f82d8f4ef1e4a5a4a11e.json",
 					"name" : "react_codegen_safeareacontext",
 					"projectIndex" : 0
 				}

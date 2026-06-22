@@ -74,7 +74,7 @@
 			{
 				"command" : 4,
 				"file" : 2,
-				"line" : 82,
+				"line" : 68,
 				"parent" : 8
 			},
 			{
@@ -360,11 +360,11 @@
 	[
 		{
 			"backtrace" : 5,
-			"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a"
+			"id" : "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d"
 		},
 		{
 			"backtrace" : 5,
-			"id" : "react_codegen_rnscreens::@25bcbd507e98d3a854ad"
+			"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a"
 		},
 		{
 			"backtrace" : 5,
@@ -372,7 +372,7 @@
 		},
 		{
 			"backtrace" : 5,
-			"id" : "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d"
+			"id" : "react_codegen_rnscreens::@25bcbd507e98d3a854ad"
 		}
 	],
 	"id" : "appmodules::@6890427a1f51a3e7e1df",
@@ -391,7 +391,17 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\8a13960de8e6fe2f78c8c2d824562bb1\\transformed\\react-android-0.73.4-debug\\prefab\\modules\\react_utils\\libs\\android.arm64-v8a\\libreact_utils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\8a13960de8e6fe2f78c8c2d824562bb1\\transformed\\react-android-0.73.4-debug\\prefab\\modules\\react_newarchdefaults\\libs\\android.arm64-v8a\\libreact_newarchdefaults.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\8a13960de8e6fe2f78c8c2d824562bb1\\transformed\\react-android-0.73.4-debug\\prefab\\modules\\react_render_componentregistry\\libs\\android.arm64-v8a\\libreact_render_componentregistry.so",
 				"role" : "libraries"
 			},
 			{
@@ -422,16 +432,6 @@
 			{
 				"backtrace" : 5,
 				"fragment" : "C:\\WaterMeterApp\\android\\app\\build\\intermediates\\cxx\\Debug\\2w1t1eg5\\obj\\arm64-v8a\\libreact_codegen_RNVectorIconsSpec.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\8a13960de8e6fe2f78c8c2d824562bb1\\transformed\\react-android-0.73.4-debug\\prefab\\modules\\react_utils\\libs\\android.arm64-v8a\\libreact_utils.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "C:\\Users\\user\\.gradle\\caches\\8.14\\transforms\\8a13960de8e6fe2f78c8c2d824562bb1\\transformed\\react-android-0.73.4-debug\\prefab\\modules\\react_render_componentregistry\\libs\\android.arm64-v8a\\libreact_render_componentregistry.so",
 				"role" : "libraries"
 			},
 			{
