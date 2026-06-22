@@ -81,11 +81,11 @@ export const updateMeterStatus = (id, status) => {
   });
 };
 
-export const addReading = (meterId, value, flowRate, consumption) => {
+export const addReading = (meterId, value, flowRate, consumption, timestamp) => {
   return new Promise((resolve, reject) => {
-    const timestamp = new Date().toISOString();
+    const ts = timestamp || new Date().toISOString();
     db.transaction(tx => {
-      tx.executeSql('INSERT INTO readings (meterId, value, flowRate, consumption, timestamp) VALUES (?, ?, ?, ?, ?);', [meterId, value, flowRate || 0, consumption || 0, timestamp], () => resolve(), (_, error) => reject(error));
+      tx.executeSql('INSERT INTO readings (meterId, value, flowRate, consumption, timestamp) VALUES (?, ?, ?, ?, ?);', [meterId, value, flowRate || 0, consumption || 0, ts], () => resolve(), (_, error) => reject(error));
     });
   });
 };

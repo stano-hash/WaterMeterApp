@@ -1,27 +1,38 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, Text, Button, Alert} from 'react-native';
 import {LineChart} from 'react-native-chart-kit';
 import {Dimensions} from 'react-native';
 import ReadingForm from '../components/ReadingForm';
-import {getReadings, addReading, updateReading, deleteReading} from '../database/Database';
+import {getReadings, addReading, updateReading, deleteReading, getMeters} from '../database/Database';
 
 const screenWidth = Dimensions.get('window').width;
 
 const ReportsScreen = ({navigation}) => {
   const [readings, setReadings] = useState([]);
   const [editingReading, setEditingReading] = useState(null);
+  const [meters, setMeters] = useState([]);
 
   const loadReadings = async () => {
     const data = await getReadings();
     setReadings(data);
   };
 
-  React.useEffect(() => {
+  const loadMeters = async () => {
+    const data = await getMeters();
+    setMeters(data);
+  };
+
+  useEffect(() => {
     loadReadings();
+    loadMeters();
   }, []);
 
   const handleAdd = async (value, date) => {
-    await addReading(value, date);
+    const meter = meters[0];
+    if (!meter) return Alert.alert('Info', 'Please add a meter first');
+    const flow = parseFloat((Math.random() * 5).toFixed(2));
+    const consumption = parseFloat((flow * 4).toFixed(2));
+    await addReading(meter.id, value, flow, consumption, date || new Date().toISOString());
     loadReadings();
     setEditingReading(null);
   };
