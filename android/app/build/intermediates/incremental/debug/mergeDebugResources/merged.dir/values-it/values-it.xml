@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
     <string name="bottomsheet_drag_handle_clicked">Doppio tocco su punto di trascinamento</string>
     <string name="bottomsheet_drag_handle_content_description">Punto di trascinamento</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Menu sviluppatori React Native (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s in esecuzione</string>
     <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
     <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
     <string name="clear_text_end_icon_content_description">Cancella testo</string>

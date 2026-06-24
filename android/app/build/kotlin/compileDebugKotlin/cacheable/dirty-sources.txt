@@ -1,0 +1,2 @@
+C:\WaterMeterApp\android\app\src\main\java\com\watermeterapp\MainApplication.kt
+C:\WaterMeterApp\android\app\src\main\java\com\watermeterapp\MainActivity.kt

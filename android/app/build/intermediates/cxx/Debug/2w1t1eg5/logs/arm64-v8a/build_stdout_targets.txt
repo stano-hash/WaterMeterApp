@@ -1,67 +1,749 @@
 ninja: Entering directory `C:\WaterMeterApp\android\app\.cxx\Debug\2w1t1eg5\arm64-v8a'
 [0/2] Re-checking globbed directories...
-[1/35] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o
-[2/35] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o
-[3/35] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o
-[4/35] Building CXX object RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o
-[5/35] Building CXX object CMakeFiles/appmodules.dir/OnLoad.cpp.o
-[6/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/EventEmitters.cpp.o
-[7/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/States.cpp.o
-[8/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/ShadowNodes.cpp.o
-[9/35] Building CXX object CMakeFiles/appmodules.dir/C_/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o
-FAILED: CMakeFiles/appmodules.dir/C_/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o 
-C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dappmodules_EXPORTS -IC:/WaterMeterApp/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup -IC:/WaterMeterApp/android/app/build/generated/rncli/src/main/jni -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni -IC:/WaterMeterApp/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/. -IC:/WaterMeterApp/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -IC:/WaterMeterApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/. -IC:/WaterMeterApp/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/fabricjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/c1ef3763cf49bc85d8fff96bb6fe131d/transformed/fbjni-0.5.1/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_utils/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_newarchdefaults/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_componentregistry/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_imagemanager/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/rrc_image/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/rrc_legacyviewmanagerinterop/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/runtimeexecutor/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -Wall -Werror -Wno-error=cpp -fexceptions -frtti -std=c++20 -DWITH_INSPECTOR=1 -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT CMakeFiles/appmodules.dir/C_/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o -MF CMakeFiles\appmodules.dir\C_\WaterMeterApp\android\app\build\generated\rncli\src\main\jni\rncli.cpp.o.d -o CMakeFiles/appmodules.dir/C_/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp.o -c C:/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp
-In file included from C:/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp:11:
-In file included from C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/safeareacontext.h:6:
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewComponentDescriptor.h:15:60: error: non-virtual member function marked 'override' hides virtual member function
-   15 |   void adopt(ShadowNode::Unshared const &shadowNode) const override {
-      |                                                            ^
-C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/ConcreteComponentDescriptor.h:172:16: note: hidden overloaded virtual function 'facebook::react::ConcreteComponentDescriptor<facebook::react::RNCSafeAreaViewShadowNode>::adopt' declared here: type mismatch at 1st parameter ('ShadowNode &' vs 'const ShadowNode::Unshared &' (aka 'const shared_ptr<ShadowNode> &'))
-  172 |   virtual void adopt(ShadowNode& shadowNode) const override {
-      |                ^
-In file included from C:/WaterMeterApp/android/app/build/generated/rncli/src/main/jni/rncli.cpp:11:
-In file included from C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/safeareacontext.h:6:
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewComponentDescriptor.h:21:40: error: non-const lvalue reference to type 'ShadowNode' cannot bind to a value of unrelated type 'const ShadowNode::Unshared' (aka 'const shared_ptr<ShadowNode>')
-   21 |     ConcreteComponentDescriptor::adopt(shadowNode);
-      |                                        ^~~~~~~~~~
-C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/ConcreteComponentDescriptor.h:172:34: note: passing argument to parameter 'shadowNode' here
-  172 |   virtual void adopt(ShadowNode& shadowNode) const override {
+[1/36] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o
+[2/36] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/rnasyncstorage-generated.cpp.o
+[3/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/5dfdeaf88aa77839e98b0b7a348bac08/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:16:69: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   16 | void RNCSafeAreaProviderEventEmitter::onInsetsChange(OnInsetsChange $event) const {
+      |                                                                     ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17:34: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
       |                                  ^
-2 errors generated.
-[10/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o
-[11/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/rnasyncstorage-generated.cpp.o
-[12/35] Building CXX object rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/rnasyncstorageJSI-generated.cpp.o
-[13/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o
-In file included from C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp:1:
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.h:19:7: warning: designated initializers are a C++20 extension [-Wc++20-designator]
-   19 |       .left = (float)value["left"].getDouble(),
-      |       ^
-1 warning generated.
-[14/35] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o
-FAILED: safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o 
-C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_safeareacontext_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext -isystem C:/Users/user/.gradle/caches/8.14/transforms/c1ef3763cf49bc85d8fff96bb6fe131d/transformed/fbjni-0.5.1/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/8a13960de8e6fe2f78c8c2d824562bb1/transformed/react-android-0.73.4-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++17 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o -MF safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\d0cbb33f4fb9fdd96720710db515c354\cpp\react\renderer\components\safeareacontext\RNCSafeAreaViewShadowNode.cpp.o.d -o safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o -c C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp
-In file included from C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:1:
-In file included from C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.h:6:
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.h:19:7: warning: designated initializers are a C++20 extension [-Wc++20-designator]
-   19 |       .left = (float)value["left"].getDouble(),
-      |       ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:13:31: error: use of undeclared identifier 'YGStyle'
-   13 | inline YGValue valueFromEdges(YGStyle::Edges edges, YGEdge edge, YGEdge axis) {
-      |                               ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:68:9: error: use of undeclared identifier 'yogaStyleValueFromFloat'
-   68 |   top = yogaStyleValueFromFloat(getEdgeValue(
-      |         ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:72:10: error: use of undeclared identifier 'yogaStyleValueFromFloat'
-   72 |   left = yogaStyleValueFromFloat(getEdgeValue(
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:17:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   17 |   dispatchEvent("insetsChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:18:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   18 |     auto $payload = jsi::Object(runtime);
       |          ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:76:11: error: use of undeclared identifier 'yogaStyleValueFromFloat'
-   76 |   right = yogaStyleValueFromFloat(getEdgeValue(
-      |           ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:80:12: error: use of undeclared identifier 'yogaStyleValueFromFloat'
-   80 |   bottom = yogaStyleValueFromFloat(getEdgeValue(
-      |            ^
-C:/WaterMeterApp/node_modules/react-native-safe-area-context/common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp:85:3: error: unknown type name 'YGStyle'
-   85 |   YGStyle adjustedStyle = getConcreteProps().yogaStyle;
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:21:38: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   21 |   insets.setProperty(runtime, "top", $event.insets.top);
+      |                                      ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:22:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   22 |   insets.setProperty(runtime, "right", $event.insets.right);
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:23:41: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   23 |   insets.setProperty(runtime, "bottom", $event.insets.bottom);
+      |                                         ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:24:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   24 |   insets.setProperty(runtime, "left", $event.insets.left);
+      |                                       ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:25:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   25 |   $payload.setProperty(runtime, "insets", insets);
       |   ^
-1 warning and 6 errors generated.
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:29:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   29 |   frame.setProperty(runtime, "x", $event.frame.x);
+      |                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:30:35: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   30 |   frame.setProperty(runtime, "y", $event.frame.y);
+      |                                   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:31:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   31 |   frame.setProperty(runtime, "width", $event.frame.width);
+      |                                       ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:32:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |   frame.setProperty(runtime, "height", $event.frame.height);
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:33:3: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   33 |   $payload.setProperty(runtime, "frame", frame);
+      |   ^
+C:/WaterMeterApp/node_modules/react-native-safe-area-context/android/build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp:35:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   35 |     return $payload;
+      |            ^
+15 warnings generated.
+[4/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o
+[5/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d0cbb33f4fb9fdd96720710db515c354/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o
+[6/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/caace603ddeffad46a2a02561eba98b4/jni/react/renderer/components/safeareacontext/ComponentDescriptors.cpp.o
+[7/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/1cf815897206242d9651d61eeeeeae47/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o
+[8/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/c56240ceb282bee787a920f2ed2d5555/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp.o
+[9/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/1cf815897206242d9651d61eeeeeae47/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o
+[10/36] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/309bbbb08b1ed67ee4c02c19f4697e0a/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o
+FAILED: rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/309bbbb08b1ed67ee4c02c19f4697e0a/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o 
+C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_rnscreens_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -isystem C:/Users/user/.gradle/caches/8.14/transforms/b9361f60b75b5bace485422ff80bf3ce/transformed/fbjni-0.6.0/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++17 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/309bbbb08b1ed67ee4c02c19f4697e0a/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o -MF rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\309bbbb08b1ed67ee4c02c19f4697e0a\android\build\generated\source\codegen\jni\react\renderer\components\rnscreens\Props.cpp.o.d -o rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/309bbbb08b1ed67ee4c02c19f4697e0a/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp.o -c C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/AccessibilityProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/PropsMacros.h:11:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/fnv1a.h:24:42: error: no type named 'identity' in namespace 'std'; did you mean '__identity'?
+   24 | template <typename CharTransformT = std::identity>
+      |                                     ~~~~~^
+C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__functional/identity.h:27:8: note: '__identity' declared here
+   27 | struct __identity {
+      |        ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/AccessibilityProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/Props.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:1: error: unknown type name 'concept'
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:39: error: 'RawProps' does not refer to a value
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      |                                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:35:7: note: declared here
+   35 | class RawProps final {
+      |       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:49: error: use of undeclared identifier 'rawProps'
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      |                                                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/YogaStylableProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/style/Style.h:16:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/algorithm/FlexDirection.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/Dimension.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:20:1: error: unknown type name 'concept'
+   20 | concept Enumeration = std::is_enum_v<EnumT>;
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:25:11: error: unknown type name 'Enumeration'
+   25 | template <Enumeration EnumT>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:32:1: error: unknown type name 'concept'
+   32 | concept HasOrdinality = (ordinalCount<EnumT>() > 0);
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:37:11: error: unknown type name 'HasOrdinality'
+   37 | template <HasOrdinality EnumT>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:40:42: error: template argument for template type parameter must be a type
+   40 |       static_cast<std::underlying_type_t<EnumT>>(ordinalCount<EnumT>() - 1));
+      |                                          ^~~~~
+C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__type_traits/underlying_type.h:36:17: note: template parameter is declared here
+   36 | template <class _Tp>
+      |                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/YogaStylableProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/style/Style.h:16:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/algorithm/FlexDirection.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/Dimension.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:39:15: error: no member named 'bit_width' in namespace 'std'
+   39 |   return std::bit_width(
+      |          ~~~~~^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:47:30: error: use of variable template 'Enumeration' requires template arguments
+   47 | constexpr auto to_underlying(Enumeration auto e) noexcept {
+      |                              ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:20:9: note: template is declared here
+   19 | template <typename EnumT>
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~
+   20 | concept Enumeration = std::is_enum_v<EnumT>;
+      |         ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:47:49: error: expected ';' after top level declarator
+   47 | constexpr auto to_underlying(Enumeration auto e) noexcept {
+      |                                                 ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:55:11: error: unknown type name 'HasOrdinality'
+   55 | template <HasOrdinality EnumT>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:58:5: error: unknown type name 'EnumT'
+   58 |     EnumT e{};
+      |     ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:60:5: error: unknown type name 'EnumT'
+   60 |     EnumT operator*() const {
+      |     ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:65:23: error: unknown type name 'EnumT'
+   65 |       e = static_cast<EnumT>(to_underlying(e) + 1);
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:78:35: error: unknown type name 'EnumT'
+   78 |       return Iterator{static_cast<EnumT>(ordinalCount<EnumT>())};
+      |                                   ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/YogaStylableProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/style/Style.h:16:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/algorithm/FlexDirection.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/Dimension.h:24:19: error: no function template matches function template specialization 'ordinalCount'
+   24 | constexpr int32_t ordinalCount<Dimension>() {
+      |                   ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:26:19: note: candidate template ignored: invalid explicitly-specified argument for template parameter 'EnumT'
+   26 | constexpr int32_t ordinalCount();
+      |                   ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewProps.h:11:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/YogaStylableProps.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/style/Style.h:16:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/algorithm/FlexDirection.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/Direction.h:25:19: error: no function template matches function template specialization 'ordinalCount'
+   25 | constexpr int32_t ordinalCount<Direction>() {
+      |                   ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include/yoga/enums/YogaEnums.h:26:19: note: candidate template ignored: invalid explicitly-specified argument for template parameter 'EnumT'
+   26 | constexpr int32_t ordinalCount();
+      |                   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[11/36] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp.o
+FAILED: rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp.o 
+C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_rnscreens_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -isystem C:/Users/user/.gradle/caches/8.14/transforms/b9361f60b75b5bace485422ff80bf3ce/transformed/fbjni-0.6.0/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++17 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp.o -MF rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\e4e16f9ef2b57796864008fe30e0edeb\build\generated\source\codegen\jni\react\renderer\components\rnscreens\ShadowNodes.cpp.o.d -o rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp.o -c C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:1: error: unknown type name 'concept'
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:65: error: 'T' does not refer to a value
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      |                                                                 ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:15:20: note: declared here
+   15 | template <typename T>
+      |                    ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:11: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:23: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:44: error: unknown type name 'T'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:56: error: unknown type name 'Rest'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                        ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:61: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                  ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:22:21: error: template argument for template type parameter must be a type
+   22 |   seed ^= std::hash<T>{}(v) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+      |                     ^
+C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1538:17: note: template parameter is declared here
+ 1538 | template <class _Tp>
+      |                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:23:30: error: pack expansion does not contain any unexpanded parameter packs
+   23 |   (hash_combine(seed, rest), ...);
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:11: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:23: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:32: error: unknown type name 'T'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:44: error: unknown type name 'Args'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:49: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                      ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:29:41: error: pack expansion does not contain any unexpanded parameter packs
+   29 |   hash_combine<T, Args...>(seed, v, args...);
+      |                                     ~~~~^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:66:12: error: no matching function for call to 'hash_combine'
+   66 |     return facebook::react::hash_combine(point.x, point.y);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:15:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Size.h:53:12: error: no matching function for call to 'hash_combine'
+   53 |     return facebook::react::hash_combine(size.width, size.height);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:128:12: error: no matching function for call to 'hash_combine'
+  128 |     return facebook::react::hash_combine(rect.origin, rect.size);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.h:13:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:97:12: error: no matching function for call to 'hash_combine'
+   97 |     return facebook::react::hash_combine(
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[12/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/1cf815897206242d9651d61eeeeeae47/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o
+[13/36] Building CXX object safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/0847d83d47c93d3fe77d8a8c94d6c704/android/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o
+[14/36] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/C_/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp.o
+FAILED: rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/C_/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp.o 
+C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_rnscreens_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -isystem C:/Users/user/.gradle/caches/8.14/transforms/b9361f60b75b5bace485422ff80bf3ce/transformed/fbjni-0.6.0/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++17 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/C_/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp.o -MF rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\C_\WaterMeterApp\node_modules\react-native-screens\common\cpp\react\renderer\components\rnscreens\RNSScreenShadowNode.cpp.o.d -o rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/C_/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp.o -c C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp:1:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.h:3:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenState.h:4:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/graphicsConversions.h:15:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:1: error: unknown type name 'concept'
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:39: error: 'RawProps' does not refer to a value
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      |                                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:35:7: note: declared here
+   35 | class RawProps final {
+      |       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/RawProps.h:148:49: error: use of undeclared identifier 'rawProps'
+  148 | concept RawPropsFilterable = requires(RawProps& rawProps) {
+      |                                                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp:1:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.h:3:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenState.h:4:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/graphicsConversions.h:19:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:1: error: unknown type name 'concept'
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:65: error: 'T' does not refer to a value
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      |                                                                 ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:15:20: note: declared here
+   15 | template <typename T>
+      |                    ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:11: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:23: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:44: error: unknown type name 'T'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:56: error: unknown type name 'Rest'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                        ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:61: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                  ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:22:21: error: template argument for template type parameter must be a type
+   22 |   seed ^= std::hash<T>{}(v) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+      |                     ^
+C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1538:17: note: template parameter is declared here
+ 1538 | template <class _Tp>
+      |                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp:1:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.h:3:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenState.h:4:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/graphicsConversions.h:19:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:23:30: error: pack expansion does not contain any unexpanded parameter packs
+   23 |   (hash_combine(seed, rest), ...);
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:11: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:23: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:32: error: unknown type name 'T'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:44: error: unknown type name 'Args'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:49: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                      ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:29:41: error: pack expansion does not contain any unexpanded parameter packs
+   29 |   hash_combine<T, Args...>(seed, v, args...);
+      |                                     ~~~~^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp:1:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.h:3:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/common/cpp/react/renderer/components/rnscreens/RNSScreenState.h:4:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/graphicsConversions.h:19:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:66:12: error: no matching function for call to 'hash_combine'
+   66 |     return facebook::react::hash_combine(point.x, point.y);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[15/36] Building CXX object rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o
+FAILED: rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o 
+C:\Users\user\Android\ndk\27.1.12297006\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreact_codegen_rnscreens_EXPORTS -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/. -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -isystem C:/Users/user/.gradle/caches/8.14/transforms/b9361f60b75b5bace485422ff80bf3ce/transformed/fbjni-0.6.0/prefab/modules/fbjni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/folly_runtime/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/glog/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/jsi/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_codegen_rncore/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_core/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_debug/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_mapbuffer/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/turbomodulejsijni/include -isystem C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/yoga/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -fexceptions -frtti -std=c++17 -Wall -Wpedantic -Wno-gnu-zero-variadic-macro-arguments -DLOG_TAG=\"ReactNative\" -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o -MF rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\e4e16f9ef2b57796864008fe30e0edeb\build\generated\source\codegen\jni\react\renderer\components\rnscreens\EventEmitters.cpp.o.d -o rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir/e4e16f9ef2b57796864008fe30e0edeb/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp.o -c C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:1: error: unknown type name 'concept'
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      | ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:16:65: error: 'T' does not refer to a value
+   16 | concept Hashable = !std::is_same_v<T, const char*> && (requires(T a) {
+      |                                                                 ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:15:20: note: declared here
+   15 | template <typename T>
+      |                    ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:11: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:20:23: error: unknown type name 'Hashable'
+   20 | template <Hashable T, Hashable... Rest>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:44: error: unknown type name 'T'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:56: error: unknown type name 'Rest'
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                        ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:21:61: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   21 | void hash_combine(std::size_t& seed, const T& v, const Rest&... rest) {
+      |                                                  ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:22:21: error: template argument for template type parameter must be a type
+   22 |   seed ^= std::hash<T>{}(v) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+      |                     ^
+C:/Users/user/Android/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__memory/shared_ptr.h:1538:17: note: template parameter is declared here
+ 1538 | template <class _Tp>
+      |                 ^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:23:30: error: pack expansion does not contain any unexpanded parameter packs
+   23 |   (hash_combine(seed, rest), ...);
+      |    ~~~~~~~~~~~~~~~~~~~~~~~~  ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:11: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |           ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:26:23: error: unknown type name 'Hashable'
+   26 | template <Hashable T, Hashable... Args>
+      |                       ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:32: error: unknown type name 'T'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:44: error: unknown type name 'Args'
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                            ^
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:27:49: error: type 'const int &' of function parameter pack does not contain any unexpanded parameter packs
+   27 | std::size_t hash_combine(const T& v, const Args&... args) {
+      |                                      ~~~~~~~~~~~^~~~~~~~
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/utils/hash_combine.h:29:41: error: pack expansion does not contain any unexpanded parameter packs
+   29 |   hash_combine<T, Args...>(seed, v, args...);
+      |                                     ~~~~^
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:14:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Point.h:66:12: error: no matching function for call to 'hash_combine'
+   66 |     return facebook::react::hash_combine(point.x, point.y);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:15:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Size.h:53:12: error: no matching function for call to 'hash_combine'
+   53 |     return facebook::react::hash_combine(size.width, size.height);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_render_graphics/include/react/renderer/graphics/Rect.h:128:12: error: no matching function for call to 'hash_combine'
+  128 |     return facebook::react::hash_combine(rect.origin, rect.size);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:11:
+In file included from C:/WaterMeterApp/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.h:12:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/ViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/HostPlatformViewEventEmitter.h:10:
+In file included from C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/rrc_view/include/react/renderer/components/view/BaseViewEventEmitter.h:13:
+C:/Users/user/.gradle/caches/8.14/transforms/51e4d481a7f19e7d45fe83443b943818/transformed/react-android-0.74.0-debug/prefab/modules/react_nativemodule_core/include/react/renderer/core/LayoutMetrics.h:97:12: error: no matching function for call to 'hash_combine'
+   97 |     return facebook::react::hash_combine(
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:19:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   19 | void RNSScreenEventEmitter::onAppear(OnAppear $event) const {
+      |                                               ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:21:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   21 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:23:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   23 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:28:53: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   28 | void RNSScreenEventEmitter::onDisappear(OnDisappear $event) const {
+      |                                                     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:30:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   30 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:32:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   32 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:37:53: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   37 | void RNSScreenEventEmitter::onDismissed(OnDismissed $event) const {
+      |                                                     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:38:31: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                               ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:38:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   38 |   dispatchEvent("dismissed", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:39:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   39 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:40:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   40 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:40:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   40 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:41:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   41 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:46:79: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   46 | void RNSScreenEventEmitter::onNativeDismissCancelled(OnNativeDismissCancelled $event) const {
+      |                                                                               ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:47:44: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   47 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:47:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   47 |   dispatchEvent("nativeDismissCancelled", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                             ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:48:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   48 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:49:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   49 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:49:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   49 |     $payload.setProperty(runtime, "dismissCount", $event.dismissCount);
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:50:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   50 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:55:55: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   55 | void RNSScreenEventEmitter::onWillAppear(OnWillAppear $event) const {
+      |                                                       ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:57:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   57 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:59:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   59 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:64:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   64 | void RNSScreenEventEmitter::onWillDisappear(OnWillDisappear $event) const {
+      |                                                             ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:66:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   66 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:68:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   68 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:73:71: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   73 | void RNSScreenEventEmitter::onHeaderHeightChange(OnHeaderHeightChange $event) const {
+      |                                                                       ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:74:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:74:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   74 |   dispatchEvent("headerHeightChange", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:75:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   75 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:76:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   76 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:76:51: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   76 |     $payload.setProperty(runtime, "headerHeight", $event.headerHeight);
+      |                                                   ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:77:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   77 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:82:71: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   82 | void RNSScreenEventEmitter::onTransitionProgress(OnTransitionProgress $event) const {
+      |                                                                       ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:83:40: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   83 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                        ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:83:57: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   83 |   dispatchEvent("transitionProgress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                         ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:84:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   84 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:85:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   85 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:85:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   85 |     $payload.setProperty(runtime, "progress", $event.progress);
+      |                                               ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:86:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   86 | $payload.setProperty(runtime, "closing", $event.closing);
+      | ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:86:42: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   86 | $payload.setProperty(runtime, "closing", $event.closing);
+      |                                          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:87:1: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   87 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      | ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:87:47: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   87 | $payload.setProperty(runtime, "goingForward", $event.goingForward);
+      |                                               ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:88:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   88 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:93:61: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   93 | void RNSScreenEventEmitter::onGestureCancel(OnGestureCancel $event) const {
+      |                                                             ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:95:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   95 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:97:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+   97 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:102:81: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  102 | void RNSScreenEventEmitter::onHeaderBackButtonClicked(OnHeaderBackButtonClicked $event) const {
+      |                                                                                 ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:104:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  104 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:106:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  106 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:114:78: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  114 | void RNSScreenStackEventEmitter::onFinishTransitioning(OnFinishTransitioning $event) const {
+      |                                                                              ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:116:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  116 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:118:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  118 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:123:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  123 | void RNSSearchBarEventEmitter::onFocus(OnFocus $event) const {
+      |                                                ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:125:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  125 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:127:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  127 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:132:46: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  132 | void RNSSearchBarEventEmitter::onBlur(OnBlur $event) const {
+      |                                              ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:134:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  134 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:136:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  136 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:141:72: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  141 | void RNSSearchBarEventEmitter::onSearchButtonPress(OnSearchButtonPress $event) const {
+      |                                                                        ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:142:39: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  142 |   dispatchEvent("searchButtonPress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                       ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:142:56: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  142 |   dispatchEvent("searchButtonPress", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                        ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:143:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  143 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:144:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  144 |     $payload.setProperty(runtime, "text", $event.text);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:144:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  144 |     $payload.setProperty(runtime, "text", $event.text);
+      |                                           ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:145:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  145 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:150:72: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  150 | void RNSSearchBarEventEmitter::onCancelButtonPress(OnCancelButtonPress $event) const {
+      |                                                                        ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:152:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  152 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:154:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  154 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:159:58: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  159 | void RNSSearchBarEventEmitter::onChangeText(OnChangeText $event) const {
+      |                                                          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:160:32: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  160 |   dispatchEvent("changeText", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:160:49: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  160 |   dispatchEvent("changeText", [$event=std::move($event)](jsi::Runtime &runtime) {
+      |                                                 ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:161:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  161 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:162:5: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  162 |     $payload.setProperty(runtime, "text", $event.text);
+      |     ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:162:43: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  162 |     $payload.setProperty(runtime, "text", $event.text);
+      |                                           ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:163:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  163 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:168:48: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  168 | void RNSSearchBarEventEmitter::onClose(OnClose $event) const {
+      |                                                ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:170:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  170 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:172:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  172 |     return $payload;
+      |            ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:177:46: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  177 | void RNSSearchBarEventEmitter::onOpen(OnOpen $event) const {
+      |                                              ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:179:10: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  179 |     auto $payload = jsi::Object(runtime);
+      |          ^
+C:/WaterMeterApp/node_modules/react-native-screens/android/build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp:181:12: warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  181 |     return $payload;
+      |            ^
+82 warnings and 19 errors generated.
 ninja: build stopped: subcommand failed.

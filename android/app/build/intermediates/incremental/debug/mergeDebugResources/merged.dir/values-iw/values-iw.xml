@@ -39,8 +39,6 @@
     <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
     <string name="bottomsheet_drag_handle_clicked">בוצעה הקשה כפולה על נקודת האחיזה לגרירה</string>
     <string name="bottomsheet_drag_handle_content_description">נקודת אחיזה לגרירה</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">תפריט מקומי למפתחים (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s בפעילות</string>
     <string name="character_counter_content_description">הוזנו %1$d תווים מתוך %2$d</string>
     <string name="character_counter_overflowed_content_description">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
     <string name="clear_text_end_icon_content_description">מחיקת הטקסט</string>

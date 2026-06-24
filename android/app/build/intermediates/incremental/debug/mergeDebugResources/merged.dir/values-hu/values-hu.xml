@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Kibontás félig</string>
     <string name="bottomsheet_drag_handle_clicked">Duplán koppintott a csúszkára</string>
     <string name="bottomsheet_drag_handle_content_description">Csúszka</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">React Native-fejlesztői menü – (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Futó %1$s</string>
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
     <string name="clear_text_end_icon_content_description">Szöveg törlése</string>

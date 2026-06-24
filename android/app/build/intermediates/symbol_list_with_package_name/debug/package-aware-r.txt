@@ -3709,6 +3709,7 @@ string catalyst_copy_button
 string catalyst_debug_connecting
 string catalyst_debug_error
 string catalyst_debug_open
+string catalyst_debug_open_disabled
 string catalyst_dev_menu_header
 string catalyst_dev_menu_sub_header
 string catalyst_dismiss_button
@@ -3717,8 +3718,7 @@ string catalyst_hot_reloading
 string catalyst_hot_reloading_auto_disable
 string catalyst_hot_reloading_auto_enable
 string catalyst_hot_reloading_stop
-string catalyst_inspector
-string catalyst_inspector_stop
+string catalyst_inspector_toggle
 string catalyst_loading_from_url
 string catalyst_open_debugger_error
 string catalyst_perf_monitor
@@ -3727,8 +3727,7 @@ string catalyst_reload
 string catalyst_reload_button
 string catalyst_reload_error
 string catalyst_report_button
-string catalyst_sample_profiler_disable
-string catalyst_sample_profiler_enable
+string catalyst_sample_profiler_toggle
 string catalyst_settings
 string catalyst_settings_title
 string character_counter_content_description

@@ -39,7 +39,6 @@
     <string name="bottomsheet_action_expand_halfway">Razširjanje na pol višine</string>
     <string name="bottomsheet_drag_handle_clicked">Dvakrat dotaknjena ročica za vlečenje</string>
     <string name="bottomsheet_drag_handle_content_description">Ročica za vlečenje</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">V teku %1$s</string>
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Omejitev števila znakov je presegla %1$d od %2$d</string>
     <string name="clear_text_end_icon_content_description">Izbris besedila</string>

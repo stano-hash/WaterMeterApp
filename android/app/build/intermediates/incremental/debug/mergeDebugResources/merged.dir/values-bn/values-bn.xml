@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">অর্ধেক প্রসারিত করুন</string>
     <string name="bottomsheet_drag_handle_clicked">টেনে আনার হ্যান্ডেলে ডবল ট্যাপ করা হয়েছে</string>
     <string name="bottomsheet_drag_handle_content_description">টেনে আনার হ্যান্ডেল</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">রিয়েকশন নেটিভ ডেভেলপার মেনু (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s চলছে</string>
     <string name="character_counter_content_description">%2$dটির মধ্যে %1$dটি অক্ষর লেখা হয়েছে</string>
     <string name="character_counter_overflowed_content_description">অক্ষরের সীমা %1$d এর %2$d অতিক্রম করেছে</string>
     <string name="clear_text_end_icon_content_description">টেক্সট মুছুন</string>

@@ -39,8 +39,6 @@
     <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
     <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
     <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Меню разработчика React Native (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Текущий показ %1$s</string>
     <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
     <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
     <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>

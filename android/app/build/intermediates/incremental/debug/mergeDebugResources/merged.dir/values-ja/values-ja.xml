@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
     <string name="bottomsheet_drag_handle_clicked">ドラッグ ハンドルをダブルタップしました</string>
     <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">React Native開発メニュー(%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$sの実行中</string>
     <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
     <string name="clear_text_end_icon_content_description">テキストを消去</string>

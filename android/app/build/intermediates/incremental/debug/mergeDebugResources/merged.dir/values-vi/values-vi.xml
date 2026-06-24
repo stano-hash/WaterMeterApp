@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
     <string name="bottomsheet_drag_handle_clicked">Đã nhấn đúp nút kéo</string>
     <string name="bottomsheet_drag_handle_content_description">Nút kéo</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Menu phát triển React Native (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Đang chạy %1$s</string>
     <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
     <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Xóa văn bản</string>

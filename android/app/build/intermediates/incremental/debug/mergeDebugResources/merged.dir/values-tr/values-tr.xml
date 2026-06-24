@@ -37,7 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
     <string name="bottomsheet_drag_handle_clicked">Sürükleme tutamacına iki kez dokunuldu</string>
     <string name="bottomsheet_drag_handle_content_description">Sürükleme tutamacı</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s çalıştırıyor</string>
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
     <string name="clear_text_end_icon_content_description">Metni temizle</string>

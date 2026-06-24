@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">ਅੱਧ ਤੱਕ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="bottomsheet_drag_handle_clicked">ਘਸੀਟਣ ਵਾਲੇ ਹੈਂਡਲ \'ਤੇ ਡਬਲ-ਟੈਪ ਕੀਤਾ ਗਿਆ</string>
     <string name="bottomsheet_drag_handle_content_description">ਘਸੀਟਣ ਵਾਲਾ ਹੈਂਡਲ</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">ਨੇਟਿਵ ਡਿਵੈ ਮੀਨੂ (%1$s) \'ਤੇ ਪ੍ਰਤੀਕਿਰਿਆ ਦਿਓ</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s ਚੱਲ ਰਿਹਾ ਹੈ</string>
     <string name="character_counter_content_description">%2$d ਵਿੱਚੋਂ %1$d ਅੱਖਰ-ਚਿੰਨ੍ਹ ਦਾਖਲ ਕੀਤੇ ਗਏ</string>
     <string name="character_counter_overflowed_content_description">ਅੱਖਰ-ਚਿੰਨ੍ਹ ਸੀਮਾ %2$d ਤੋਂ %1$d ਵਧੀ</string>
     <string name="clear_text_end_icon_content_description">ਲਿਖਤ ਕਲੀਅਰ ਕਰੋ</string>

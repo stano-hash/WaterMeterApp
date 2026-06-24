@@ -60,6 +60,7 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Цаг сонгох</string>
     <string name="material_timepicker_text_input_mode_description">Цагийг оруулахын тулд текст оруулах горимд шилжүүлнэ үү.</string>
+    <string gender="unknown" name="menu_description">Цэс</string>
     <string name="mtrl_badge_numberless_content_description">Шинэ мэдэгдэл</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s-г устгах</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d-с олон шинэ мэдэгдэл</string>

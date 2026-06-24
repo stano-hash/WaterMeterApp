@@ -41,12 +41,14 @@
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Абмежаванне колькасці сімвалаў перавышана: %1$d з %2$d</string>
     <string name="clear_text_end_icon_content_description">Ачысціць тэкст</string>
+    <string gender="unknown" name="combobox_description">Камбінаваны спіс</string>
     <string name="error_icon_content_description">Памылка</string>
     <string name="exposed_dropdown_menu_content_description">Паказаць выпадное меню</string>
     <string name="icon_content_description">Значок дыялогавага акна</string>
     <string gender="unknown" name="image_description">Відарыс</string>
     <string gender="unknown" name="imagebutton_description">Кнопка, відарыс</string>
     <string name="item_view_role_description">Укладка</string>
+    <string gender="unknown" name="link_description">Спасылка</string>
     <string name="material_clock_toggle_content_description">Выберыце AM (да паўдня) або PM (пасля паўдня)</string>
     <string name="material_hour_24h_suffix">%1$s гадз</string>
     <string name="material_hour_selection">Выберыце гадзіну</string>
@@ -60,6 +62,7 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Выберыце час</string>
     <string name="material_timepicker_text_input_mode_description">Пераключыцца на рэжым тэксту пры ўводзе часу.</string>
+    <string gender="unknown" name="menu_description">Меню</string>
     <string name="mtrl_badge_numberless_content_description">Новае апавяшчэнне</string>
     <string name="mtrl_chip_close_icon_content_description">Выдаліць %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Колькасць новых апавяшчэнняў перавысіла %1$d</string>

@@ -39,8 +39,6 @@
     <string name="bottomsheet_action_expand_halfway">Rozbalit napůl</string>
     <string name="bottomsheet_drag_handle_clicked">Dvakrát jste klepli na úchyt pro přetažení</string>
     <string name="bottomsheet_drag_handle_content_description">Úchyt pro přetažení</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Nabídka React Native Dev (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Spuštěno: %1$s</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Byl překročen povolený počet znaků (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Vymazat text</string>

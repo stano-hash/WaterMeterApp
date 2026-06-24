@@ -39,14 +39,10 @@
     <string name="character_counter_content_description">%1$d/%2$d ta belgi kiritildi</string>
     <string name="character_counter_overflowed_content_description">Harflar soni (%1$d) cheklovdan (%2$d) oshib ketdi</string>
     <string name="clear_text_end_icon_content_description">Matnni tozalash</string>
-    <string gender="unknown" name="combobox_description">Kombinatsiyalangan maydon</string>
     <string name="error_icon_content_description">Xato</string>
     <string name="exposed_dropdown_menu_content_description">Pastga ochiluvchi menyuni ochish</string>
     <string name="icon_content_description">Muloqot ikonkasi</string>
-    <string gender="unknown" name="image_description">Rasm</string>
-    <string gender="unknown" name="imagebutton_description">Tugma, rasm</string>
     <string name="item_view_role_description">Tab : Varaq</string>
-    <string gender="unknown" name="link_description">Havola</string>
     <string name="material_clock_toggle_content_description">Tushdan oldin yoki keyinligini tanlang</string>
     <string name="material_hour_24h_suffix">%1$s soat</string>
     <string name="material_hour_selection">Soatni tanlang</string>
@@ -60,7 +56,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Vaqtni tanlang</string>
     <string name="material_timepicker_text_input_mode_description">Vaqtni kiritish uchun matn kiritish rejimiga o‘ting.</string>
-    <string gender="unknown" name="menu_description">Menyu</string>
     <string name="mtrl_badge_numberless_content_description">Yangi bildirishnoma</string>
     <string name="mtrl_chip_close_icon_content_description">Olib tashlash: %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Yana %1$d dan ortiq bildirishnoma</string>
@@ -99,7 +94,5 @@
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Parol ochiq tursin</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Qidiruv"</string>
-    <string gender="unknown" name="state_off_description">o‘chiq</string>
-    <string gender="unknown" name="state_on_description">yoniq</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

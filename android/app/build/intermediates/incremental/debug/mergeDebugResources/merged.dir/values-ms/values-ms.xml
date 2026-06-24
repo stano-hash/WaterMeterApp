@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Kembangkan helaian bawah</string>
     <string name="bottomsheet_drag_handle_clicked">Pemegang seret diketik dua kali</string>
     <string name="bottomsheet_drag_handle_content_description">Pemegang seret</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Menu Pembangun Asli Bereaksi (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Sedang berjalan %1$s</string>
     <string name="character_counter_content_description">Aksara dimasukkan %1$d daripada %2$d</string>
     <string name="character_counter_overflowed_content_description">Melebihi had aksara %1$d daripada %2$d</string>
     <string name="clear_text_end_icon_content_description">Kosongkan teks</string>

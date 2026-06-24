@@ -37,7 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Udvid halvdelen</string>
     <string name="bottomsheet_drag_handle_clicked">Du har trykket to gange på håndtaget</string>
     <string name="bottomsheet_drag_handle_content_description">Håndtag</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Kører %1$s</string>
     <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
     <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
     <string name="clear_text_end_icon_content_description">Ryd tekst</string>

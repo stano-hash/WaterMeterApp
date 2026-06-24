@@ -38,8 +38,6 @@
     <string name="bottomsheet_action_expand_halfway">Izvērst līdz pusei</string>
     <string name="bottomsheet_drag_handle_clicked">Tika veikts dubultskāriens uz vilkšanas tura</string>
     <string name="bottomsheet_drag_handle_content_description">Vilkšanas turis</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Reakciju vietējā izstrādātāju izvēlne (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Darbojas %1$s</string>
     <string name="character_counter_content_description">Ievadītās rakstzīmes: %1$d no %2$d</string>
     <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
     <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>

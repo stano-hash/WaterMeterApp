@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">တစ်ဝက်ချဲ့ရန်</string>
     <string name="bottomsheet_drag_handle_clicked">ဖိဆွဲအထိန်း နှစ်ချက်တို့ထားသည်</string>
     <string name="bottomsheet_drag_handle_content_description">ဖိဆွဲအထိန်း</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Native Dev မီနူး (%1$s) ကို တုံ့ပြန်ရန်</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s ကို ပြသနေပါတယ်</string>
     <string name="character_counter_content_description">စာလုံးရေ %2$d တွင် %1$d ထည့်သွင်းထားသည်</string>
     <string name="character_counter_overflowed_content_description">စာလုံးရေအကန့်အသတ် %2$d လုံးတွင် %1$d လုံးကျော်နေသည်</string>
     <string name="clear_text_end_icon_content_description">စာသား ဖယ်ရှားရန်</string>

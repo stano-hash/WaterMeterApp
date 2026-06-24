@@ -39,8 +39,6 @@
     <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
     <string name="bottomsheet_drag_handle_clicked">Dvojité klepnutie na presúvadlo</string>
     <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Natívna vývojárska ponuka reakcie (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Spustené: %1$s</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Vymazať text</string>

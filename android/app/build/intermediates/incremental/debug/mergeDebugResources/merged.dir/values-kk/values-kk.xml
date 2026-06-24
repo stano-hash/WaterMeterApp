@@ -60,6 +60,7 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Уақытты таңдау</string>
     <string name="material_timepicker_text_input_mode_description">Уақытты енгізу үшін мәтін енгізу режиміне өтіңіз.</string>
+    <string gender="unknown" name="menu_description">Мәзір</string>
     <string name="mtrl_badge_numberless_content_description">Жаңа хабарландыру</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s мазмұнын өшіру</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d санынан көп жаңа хабарландыру</string>

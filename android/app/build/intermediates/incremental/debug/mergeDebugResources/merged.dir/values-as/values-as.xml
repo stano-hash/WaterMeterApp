@@ -39,14 +39,10 @@
     <string name="character_counter_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণ লিখা হৈছে</string>
     <string name="character_counter_overflowed_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণৰ সীমা অতিক্ৰম কৰিছে</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
-    <string gender="unknown" name="combobox_description">যুটীয়া বাকচ</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="icon_content_description">Dialog Icon</string>
-    <string gender="unknown" name="image_description">ছবি</string>
-    <string gender="unknown" name="imagebutton_description">বুটাম, ছবি</string>
     <string name="item_view_role_description">Tab</string>
-    <string gender="unknown" name="link_description">লিংক</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_24h_suffix">%1$s hours</string>
     <string name="material_hour_selection">Select hour</string>
@@ -60,7 +56,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">সময়ৰ ইনপুটৰ বাবে পাঠৰ ইনপুট ম\'ডলৈ যাওক।</string>
-    <string gender="unknown" name="menu_description">মেন্যু</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">%1$sক আঁতৰাওক</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">More than %1$d new notifications</string>
@@ -99,7 +94,5 @@
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">পাছৱৰ্ড দেখুৱাওক</string>
     <string msgid="6264217191555673260" name="search_menu_title">"সন্ধান"</string>
-    <string gender="unknown" name="state_off_description">অফ কৰক</string>
-    <string gender="unknown" name="state_on_description">অন কৰক</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
 </resources>

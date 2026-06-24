@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">ნახევრამდე გაფართოება</string>
     <string name="bottomsheet_drag_handle_clicked">ორმაგი შეხება ჩავლების სახელურზე</string>
     <string name="bottomsheet_drag_handle_content_description">სახელური ჩავლებისთვის</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">React Native-ის დეველოპერთა მენიუ (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">გაშვებულია %1$s</string>
     <string name="character_counter_content_description">შეყვანილია %2$d-დან %1$d სიმბოლო</string>
     <string name="character_counter_overflowed_content_description">გადაჭარბებულია სიმბოლოთა ლიმიტი (%2$d-დან %1$d)</string>
     <string name="clear_text_end_icon_content_description">ტექსტის გასუფთავება</string>

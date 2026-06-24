@@ -16,8 +16,8 @@
 14    for React Native Apps.
 15    -->
 16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-16-->[com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:16:5-78
-16-->[com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:16:22-75
+16-->[com.facebook.react:react-android:0.74.0] C:\Users\user\.gradle\caches\8.14\transforms\51e4d481a7f19e7d45fe83443b943818\transformed\react-android-0.74.0-debug\AndroidManifest.xml:16:5-78
+16-->[com.facebook.react:react-android:0.74.0] C:\Users\user\.gradle\caches\8.14\transforms\51e4d481a7f19e7d45fe83443b943818\transformed\react-android-0.74.0-debug\AndroidManifest.xml:16:22-75
 17
 18    <permission
 18-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\8.14\transforms\7d003d1f5eeba1cedc795b21beb0b194\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -76,11 +76,11 @@
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->[com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:19:9-21:40
+48-->[com.facebook.react:react-android:0.74.0] C:\Users\user\.gradle\caches\8.14\transforms\51e4d481a7f19e7d45fe83443b943818\transformed\react-android-0.74.0-debug\AndroidManifest.xml:19:9-21:40
 49            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-49-->[com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:20:13-77
+49-->[com.facebook.react:react-android:0.74.0] C:\Users\user\.gradle\caches\8.14\transforms\51e4d481a7f19e7d45fe83443b943818\transformed\react-android-0.74.0-debug\AndroidManifest.xml:20:13-77
 50            android:exported="false" />
-50-->[com.facebook.react:react-android:0.73.4] C:\Users\user\.gradle\caches\8.14\transforms\8a13960de8e6fe2f78c8c2d824562bb1\transformed\react-android-0.73.4-debug\AndroidManifest.xml:21:13-37
+50-->[com.facebook.react:react-android:0.74.0] C:\Users\user\.gradle\caches\8.14\transforms\51e4d481a7f19e7d45fe83443b943818\transformed\react-android-0.74.0-debug\AndroidManifest.xml:21:13-37
 51
 52        <provider
 52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\8.14\transforms\ef33d28c7951745086d6974ef3318d20\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

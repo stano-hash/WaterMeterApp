@@ -37,7 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
     <string name="bottomsheet_drag_handle_clicked">Du tryckte snabbt två gånger på handtaget</string>
     <string name="bottomsheet_drag_handle_content_description">Handtag</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Kör %1$s</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="clear_text_end_icon_content_description">Rensa text</string>

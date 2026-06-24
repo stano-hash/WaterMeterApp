@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Laiendamine poolenisti</string>
     <string name="bottomsheet_drag_handle_clicked">Lohistamispidet topeltpuudutati</string>
     <string name="bottomsheet_drag_handle_content_description">Lohistamispide</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">React Native’i arendaja menüü (%1$s)</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">Töötab %1$s</string>
     <string name="character_counter_content_description">Sisestatud tähemärgid: %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">Tähemärgipiirang on ületatud: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Kustuta tekst</string>

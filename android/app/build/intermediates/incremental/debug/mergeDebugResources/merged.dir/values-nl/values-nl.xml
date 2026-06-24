@@ -37,8 +37,6 @@
     <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
     <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
     <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
-    <string gender="unknown" name="catalyst_dev_menu_header">Native ontwikkelaarsmenu (%1$s) opnieuw activeren</string>
-    <string gender="unknown" name="catalyst_dev_menu_sub_header">%1$s actief</string>
     <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
     <string name="clear_text_end_icon_content_description">Tekst wissen</string>
